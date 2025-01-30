@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: chatapp-backend
-        image: trainwithshubham/chatapp-backend:latest
+        image: deepak8934/backend:v1
         ports:
         - containerPort: 5001
         env:
